@@ -64,7 +64,7 @@ class Main {
         System.out.println("\nIP address: " + InetAddress.getLocalHost().getHostAddress());
 
         //create file
-        File myFile = new File ("inventory.txt");
+        File myFile = new File ("src/inventory.txt");
         myFile.createNewFile();
 
         //variable declaration
